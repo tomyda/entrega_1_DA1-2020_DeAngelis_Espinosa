@@ -59,7 +59,7 @@ namespace Obligatorio1DDA
             this.registrarSentPosBtn.TabIndex = 2;
             this.registrarSentPosBtn.Text = "Registrar sentimientos positivos";
             this.registrarSentPosBtn.UseVisualStyleBackColor = true;
-            this.registrarSentPosBtn.Click += new System.EventHandler(this.button1_Click);
+            this.registrarSentPosBtn.Click += new System.EventHandler(this.registrarSentPosBtn_Click);
             // 
             // titulo
             // 
@@ -70,7 +70,6 @@ namespace Obligatorio1DDA
             this.titulo.Size = new System.Drawing.Size(935, 108);
             this.titulo.TabIndex = 3;
             this.titulo.Text = "Analizador de frases";
-            this.titulo.Click += new System.EventHandler(this.helloWorldLabel_Click);
             // 
             // crearAlarmaBtn
             // 
@@ -81,6 +80,7 @@ namespace Obligatorio1DDA
             this.crearAlarmaBtn.TabIndex = 4;
             this.crearAlarmaBtn.Text = "Crear configuracion de alarma";
             this.crearAlarmaBtn.UseVisualStyleBackColor = true;
+            this.crearAlarmaBtn.Click += new System.EventHandler(this.crearAlarmaBtn_Click);
             // 
             // registrarSentNegBtn
             // 
@@ -91,6 +91,7 @@ namespace Obligatorio1DDA
             this.registrarSentNegBtn.TabIndex = 5;
             this.registrarSentNegBtn.Text = "Registrar sentimientos negativos";
             this.registrarSentNegBtn.UseVisualStyleBackColor = true;
+            this.registrarSentNegBtn.Click += new System.EventHandler(this.registrarSentNegBtn_Click);
             // 
             // registrarEntidadesBtn
             // 
@@ -101,6 +102,7 @@ namespace Obligatorio1DDA
             this.registrarEntidadesBtn.TabIndex = 6;
             this.registrarEntidadesBtn.Text = "Registrar entidades";
             this.registrarEntidadesBtn.UseVisualStyleBackColor = true;
+            this.registrarEntidadesBtn.Click += new System.EventHandler(this.registrarEntidadesBtn_Click);
             // 
             // ingresarNuevaFraseBtn
             // 
@@ -111,6 +113,7 @@ namespace Obligatorio1DDA
             this.ingresarNuevaFraseBtn.TabIndex = 7;
             this.ingresarNuevaFraseBtn.Text = "Ingresar Nueva Frase";
             this.ingresarNuevaFraseBtn.UseVisualStyleBackColor = true;
+            this.ingresarNuevaFraseBtn.Click += new System.EventHandler(this.ingresarNuevaFraseBtn_Click);
             // 
             // reporteDeAlarmasBtn
             // 
@@ -121,6 +124,7 @@ namespace Obligatorio1DDA
             this.reporteDeAlarmasBtn.TabIndex = 8;
             this.reporteDeAlarmasBtn.Text = "Reporte de alarmas";
             this.reporteDeAlarmasBtn.UseVisualStyleBackColor = true;
+            this.reporteDeAlarmasBtn.Click += new System.EventHandler(this.reporteDeAlarmasBtn_Click);
             // 
             // reporteDeEstadisticasBtn
             // 
@@ -131,6 +135,7 @@ namespace Obligatorio1DDA
             this.reporteDeEstadisticasBtn.TabIndex = 9;
             this.reporteDeEstadisticasBtn.Text = "Reporte de estadisticas";
             this.reporteDeEstadisticasBtn.UseVisualStyleBackColor = true;
+            this.reporteDeEstadisticasBtn.Click += new System.EventHandler(this.reporteDeEstadisticasBtn_Click);
             // 
             // PantallaDeInicio
             // 
@@ -148,7 +153,6 @@ namespace Obligatorio1DDA
             this.Controls.Add(this.subtitulo);
             this.Name = "PantallaDeInicio";
             this.Text = "Analizador de frases";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

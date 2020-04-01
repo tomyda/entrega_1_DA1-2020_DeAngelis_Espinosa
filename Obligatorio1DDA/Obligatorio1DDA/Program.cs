@@ -14,6 +14,8 @@ namespace Obligatorio1DDA
         [STAThread]
         static void Main()
         {
+
+            Dominio.Sistema s = new Dominio.Sistema();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PantallaDeInicio());

@@ -45,6 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dominio\Alarma.cs" />
+    <Compile Include="Dominio\Entidad.cs" />
+    <Compile Include="Dominio\Estado.cs" />
+    <Compile Include="Dominio\Frase.cs" />
+    <Compile Include="Dominio\PalabraNegativa.cs" />
+    <Compile Include="Dominio\PalabraPositiva.cs" />
+    <Compile Include="Dominio\Sistema.cs" />
+    <Compile Include="Dominio\Tripleta.cs" />
     <Compile Include="PantallaDeInicio.cs">
       <SubType>Form</SubType>
     </Compile>

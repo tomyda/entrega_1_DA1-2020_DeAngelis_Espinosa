@@ -20,14 +20,45 @@ namespace Obligatorio1DDA
             InitializeComponent();
         }
 
-        private void registrarSentPosBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Se deberia abrir el panel de Registrar sentimietnos positivos!");
-        }
 
         private void debugInstructionsLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ingresarNuevaFraseBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de Ingresar nueva frase!");
+        }
+
+        private void registrarSentNegBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de Registrar Sentimientos regativos!");
+        }
+
+        private void crearAlarmaBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de crear alarma!");
+        }
+
+        private void registrarEntidadesBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de registrar entidades!");
+        }
+
+        private void reporteDeAlarmasBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de reporte de alarmas!");
+        }
+
+        private void reporteDeEstadisticasBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de reportes estadisticos!");
+        }
+
+        private void registrarSentPosBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se deberia abrir el panel de Registrar sentimietnos positivos!");
         }
     }
 }
