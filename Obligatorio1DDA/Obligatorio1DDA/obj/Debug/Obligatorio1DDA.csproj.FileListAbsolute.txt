@@ -18,3 +18,13 @@ C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligat
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe.config
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.pdb
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe.config
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.pdb
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaDeInicio.resources
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.Properties.Resources.resources
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.exe
+\\Mac\Home\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.pdb

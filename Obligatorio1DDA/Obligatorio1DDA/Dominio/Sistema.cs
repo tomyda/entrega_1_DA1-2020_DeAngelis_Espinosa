@@ -36,7 +36,7 @@ namespace Obligatorio1DDA.Dominio
             PalabraNegativa p3 = new PalabraNegativa("feo");
             PalabraNegativa p4 = new PalabraNegativa("horrible");
 
-            Frase f1 = new Frase("El control Apple es muy lindo");
+            Frase f1 = new Frase("El control Apple es muy nose");
             Frase f2 = new Frase("Samsung es horrible");
 
 
@@ -77,6 +77,12 @@ namespace Obligatorio1DDA.Dominio
                 this.ListaTripletas.Add(tri);
                 return;
             }
+            Entidad ent = BuscarEntidadEnFrase(frase);
+            if (ent == null) return; //ERROR: Se encontro la opinion pero no la entidad
+            frase.Estado = Estado.NEUTRO;
+            Tripleta trip = new Tripleta(frase, ent);
+            this.ListaTripletas.Add(trip);
+            return;
         }
 
         private bool TienePalabrasNegativas(Frase frase)
