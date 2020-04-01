@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{08C2F134-EC86-412B-A241-F39BFA918E92}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Obligatorio1DDA/Dominio/Alarma.cs">
+    <Files>
+      <File FileName="Obligatorio1DDA/Dominio/Frase.cs" Line="1" Column="1" />
+      <File FileName="Obligatorio1DDA/Dominio/Sistema.cs" Line="26" Column="23" />
+      <File FileName="Obligatorio1DDA/Dominio/Estado.cs" Line="1" Column="4" />
+      <File FileName="Obligatorio1DDA/Dominio/Alarma.cs" Line="24" Column="55" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Obligatorio1DDA" expanded="True">
+            <Node name="Obligatorio1DDA" expanded="True">
+              <Node name="Dominio" expanded="True">
+                <Node name="Alarma.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Obligatorio1DDA PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -11,7 +11,6 @@ namespace Obligatorio1DDA.Dominio
     {
         private List<PalabraPositiva> ListaPalabrasPositivas;
         private List<PalabraNegativa> ListaPalabrasNegativas;
-        private List<Tripleta> ListaAnalisis;
         private List<Alarma> ListaAlarmas;
         private List<Frase> ListaFrases;
         private List<Entidad> ListaDeEntidades;
@@ -24,7 +23,6 @@ namespace Obligatorio1DDA.Dominio
         {
             this.ListaPalabrasPositivas = new List<PalabraPositiva>();
             this.ListaPalabrasNegativas = new List<PalabraNegativa>();
-            this.ListaAnalisis = new List<Tripleta>();
             this.ListaAlarmas = new List<Alarma>();
             this.ListaFrases = new List<Frase>();
             this.ListaDeEntidades = new List<Entidad>();
