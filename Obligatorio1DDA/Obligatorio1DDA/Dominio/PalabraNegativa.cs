@@ -11,8 +11,8 @@ namespace Obligatorio1DDA.Dominio
 
         public PalabraNegativa(string sentencia)
         {
-            this.Sentencia = sentencia;
             this.Estado = Estado.NEGATIVO;
+            this.Sentencia = sentencia;
         }
 
         override

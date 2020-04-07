@@ -10,8 +10,8 @@ namespace Obligatorio1DDA.Dominio
     {
         public PalabraPositiva(string sentencia)
         {
-            this.Sentencia = sentencia;
             this.Estado = Estado.POSITIVO;
+            this.Sentencia = sentencia;
         }
 
         override

@@ -63,11 +63,10 @@ namespace Obligatorio1DDA
             // 
             // titulo
             // 
-            this.titulo.AutoSize = true;
             this.titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titulo.Location = new System.Drawing.Point(168, 48);
             this.titulo.Name = "titulo";
-            this.titulo.Size = new System.Drawing.Size(935, 108);
+            this.titulo.Size = new System.Drawing.Size(1015, 108);
             this.titulo.TabIndex = 3;
             this.titulo.Text = "Analizador de frases";
             // 
@@ -153,6 +152,7 @@ namespace Obligatorio1DDA
             this.Controls.Add(this.subtitulo);
             this.Name = "PantallaDeInicio";
             this.Text = "Analizador de frases";
+            this.Load += new System.EventHandler(this.PantallaDeInicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

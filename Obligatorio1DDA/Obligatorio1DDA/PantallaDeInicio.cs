@@ -28,37 +28,63 @@ namespace Obligatorio1DDA
 
         private void ingresarNuevaFraseBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de Ingresar nueva frase!");
+            this.Hide();
+            PantallaIngresarNuevaFrase pantallaIngresarFrase = new PantallaIngresarNuevaFrase();
+            pantallaIngresarFrase.ShowDialog();
+            this.Close();
         }
 
         private void registrarSentNegBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de Registrar Sentimientos regativos!");
+            this.Hide();
+            PantallaRegistrarSentNeg pantallaRegSentneg = new PantallaRegistrarSentNeg();
+            pantallaRegSentneg.ShowDialog();
+            this.Close();
         }
 
         private void crearAlarmaBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de crear alarma!");
+            this.Hide();
+            PantallaCrearAlarmas pantallaCrearAlarmas = new PantallaCrearAlarmas();
+            pantallaCrearAlarmas.ShowDialog();
+            this.Close();
         }
 
         private void registrarEntidadesBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de registrar entidades!");
+            this.Hide();
+            PantallaRegistrarEntidades pantallaRegEnt = new PantallaRegistrarEntidades();
+            pantallaRegEnt.ShowDialog();
+            this.Close();
         }
 
         private void reporteDeAlarmasBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de reporte de alarmas!");
+            this.Hide();
+            PantallaReporteDeAlarmas pantallaReporteAlarmas = new PantallaReporteDeAlarmas();
+            pantallaReporteAlarmas.ShowDialog();
+            this.Close();
         }
 
         private void reporteDeEstadisticasBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de reportes estadisticos!");
+            this.Hide();
+            PantallaReporteEstadisticas pantallaReporteEstadisticas = new PantallaReporteEstadisticas();
+            pantallaReporteEstadisticas.ShowDialog();
+            this.Close();
         }
 
         private void registrarSentPosBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se deberia abrir el panel de Registrar sentimietnos positivos!");
+            this.Hide();
+            PantallaRegistrarSentPos pantallaRegSentPos = new PantallaRegistrarSentPos();
+            pantallaRegSentPos.ShowDialog();
+            this.Close();
+        }
+
+        private void PantallaDeInicio_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

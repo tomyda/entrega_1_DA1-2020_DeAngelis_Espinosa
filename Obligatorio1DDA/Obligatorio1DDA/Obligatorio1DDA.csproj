@@ -54,26 +54,84 @@
     <Compile Include="Dominio\PalabraPositiva.cs" />
     <Compile Include="Dominio\Sistema.cs" />
     <Compile Include="Dominio\Tripleta.cs" />
+    <Compile Include="PantallaCrearAlarmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaCrearAlarmas.Designer.cs">
+      <DependentUpon>PantallaCrearAlarmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaIngresarNuevaFrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaIngresarNuevaFrase.Designer.cs">
+      <DependentUpon>PantallaIngresarNuevaFrase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistrarEntidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistrarEntidades.Designer.cs">
+      <DependentUpon>PantallaRegistrarEntidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistrarSentNeg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistrarSentNeg.Designer.cs">
+      <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaDeInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PantallaDeInicio.Designer.cs">
       <DependentUpon>PantallaDeInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaRegistrarSentPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistrarSentPos.Designer.cs">
+      <DependentUpon>PantallaRegistrarSentPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaReporteDeAlarmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaReporteDeAlarmas.Designer.cs">
+      <DependentUpon>PantallaReporteDeAlarmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaReporteEstadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaReporteEstadisticas.Designer.cs">
+      <DependentUpon>PantallaReporteEstadisticas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PantallaCrearAlarmas.resx">
+      <DependentUpon>PantallaCrearAlarmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaIngresarNuevaFrase.resx">
+      <DependentUpon>PantallaIngresarNuevaFrase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistrarEntidades.resx">
+      <DependentUpon>PantallaRegistrarEntidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistrarSentNeg.resx">
+      <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaDeInicio.resx">
       <DependentUpon>PantallaDeInicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistrarSentPos.resx">
+      <DependentUpon>PantallaRegistrarSentPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaReporteDeAlarmas.resx">
+      <DependentUpon>PantallaReporteDeAlarmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaReporteEstadisticas.resx">
+      <DependentUpon>PantallaReporteEstadisticas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -86,6 +144,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\flechaAtras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\kisspng-mobile-phones-pet-insurance-clip-art-arrow-back-5b48745471fc98.8849965915314750284669.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\homeBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\volverImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\volverBtn.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
