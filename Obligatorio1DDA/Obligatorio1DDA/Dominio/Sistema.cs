@@ -31,7 +31,6 @@ namespace Obligatorio1DDA.Dominio
             this.ListaTripletas = new List<Tripleta>();
 
 
-
             PalabraPositiva p1 = new PalabraPositiva("cool");
             PalabraPositiva p2 = new PalabraPositiva("lindo");
 

@@ -49,6 +49,7 @@
     <Compile Include="Dominio\Entidad.cs" />
     <Compile Include="Dominio\Estado.cs" />
     <Compile Include="Dominio\Frase.cs" />
+    <Compile Include="Dominio\Palabra.cs" />
     <Compile Include="Dominio\PalabraNegativa.cs" />
     <Compile Include="Dominio\PalabraPositiva.cs" />
     <Compile Include="Dominio\Sistema.cs" />

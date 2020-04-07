@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Obligatorio1DDA.Dominio
 {
-    class PalabraPositiva
+    class PalabraPositiva:Palabra
     {
-        public string Sentencia { get; set; }
-        public Estado Estado { get; set; }
-
         public PalabraPositiva(string sentencia)
         {
             this.Sentencia = sentencia;

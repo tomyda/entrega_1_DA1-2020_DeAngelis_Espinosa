@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Obligatorio1DDA.Dominio
 {
-    class PalabraNegativa
+    class PalabraNegativa:Palabra
     {
-        public string Sentencia { get; set; }
-        public Estado Estado { get; set; }
-
 
         public PalabraNegativa(string sentencia)
         {
