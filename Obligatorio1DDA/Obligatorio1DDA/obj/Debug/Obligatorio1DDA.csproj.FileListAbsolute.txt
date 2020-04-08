@@ -34,3 +34,4 @@ C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligat
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csproj.CoreCompileInputs.cache
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.exe
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.pdb
+C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csprojAssemblyReference.cache

@@ -28,6 +28,7 @@ namespace Obligatorio1DDA
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PantallaDeInicio));
             this.subtitulo = new System.Windows.Forms.Label();
             this.registrarSentPosBtn = new System.Windows.Forms.Button();
             this.titulo = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@ namespace Obligatorio1DDA
             // subtitulo
             // 
             this.subtitulo.AutoSize = true;
+            this.subtitulo.BackColor = System.Drawing.Color.Transparent;
             this.subtitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subtitulo.Location = new System.Drawing.Point(257, 179);
             this.subtitulo.Name = "subtitulo";
@@ -52,17 +54,19 @@ namespace Obligatorio1DDA
             // 
             // registrarSentPosBtn
             // 
+            this.registrarSentPosBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.registrarSentPosBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarSentPosBtn.Location = new System.Drawing.Point(27, 251);
             this.registrarSentPosBtn.Name = "registrarSentPosBtn";
             this.registrarSentPosBtn.Size = new System.Drawing.Size(603, 125);
             this.registrarSentPosBtn.TabIndex = 2;
             this.registrarSentPosBtn.Text = "Registrar sentimientos positivos";
-            this.registrarSentPosBtn.UseVisualStyleBackColor = true;
+            this.registrarSentPosBtn.UseVisualStyleBackColor = false;
             this.registrarSentPosBtn.Click += new System.EventHandler(this.registrarSentPosBtn_Click);
             // 
             // titulo
             // 
+            this.titulo.BackColor = System.Drawing.Color.Transparent;
             this.titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titulo.Location = new System.Drawing.Point(168, 48);
             this.titulo.Name = "titulo";
@@ -72,74 +76,81 @@ namespace Obligatorio1DDA
             // 
             // crearAlarmaBtn
             // 
+            this.crearAlarmaBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.crearAlarmaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.crearAlarmaBtn.Location = new System.Drawing.Point(667, 407);
             this.crearAlarmaBtn.Name = "crearAlarmaBtn";
             this.crearAlarmaBtn.Size = new System.Drawing.Size(585, 125);
             this.crearAlarmaBtn.TabIndex = 4;
             this.crearAlarmaBtn.Text = "Crear configuracion de alarma";
-            this.crearAlarmaBtn.UseVisualStyleBackColor = true;
+            this.crearAlarmaBtn.UseVisualStyleBackColor = false;
             this.crearAlarmaBtn.Click += new System.EventHandler(this.crearAlarmaBtn_Click);
             // 
             // registrarSentNegBtn
             // 
+            this.registrarSentNegBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.registrarSentNegBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarSentNegBtn.Location = new System.Drawing.Point(27, 407);
             this.registrarSentNegBtn.Name = "registrarSentNegBtn";
             this.registrarSentNegBtn.Size = new System.Drawing.Size(603, 125);
             this.registrarSentNegBtn.TabIndex = 5;
             this.registrarSentNegBtn.Text = "Registrar sentimientos negativos";
-            this.registrarSentNegBtn.UseVisualStyleBackColor = true;
+            this.registrarSentNegBtn.UseVisualStyleBackColor = false;
             this.registrarSentNegBtn.Click += new System.EventHandler(this.registrarSentNegBtn_Click);
             // 
             // registrarEntidadesBtn
             // 
+            this.registrarEntidadesBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.registrarEntidadesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarEntidadesBtn.Location = new System.Drawing.Point(27, 563);
             this.registrarEntidadesBtn.Name = "registrarEntidadesBtn";
             this.registrarEntidadesBtn.Size = new System.Drawing.Size(603, 125);
             this.registrarEntidadesBtn.TabIndex = 6;
             this.registrarEntidadesBtn.Text = "Registrar entidades";
-            this.registrarEntidadesBtn.UseVisualStyleBackColor = true;
+            this.registrarEntidadesBtn.UseVisualStyleBackColor = false;
             this.registrarEntidadesBtn.Click += new System.EventHandler(this.registrarEntidadesBtn_Click);
             // 
             // ingresarNuevaFraseBtn
             // 
+            this.ingresarNuevaFraseBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.ingresarNuevaFraseBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ingresarNuevaFraseBtn.Location = new System.Drawing.Point(667, 251);
             this.ingresarNuevaFraseBtn.Name = "ingresarNuevaFraseBtn";
             this.ingresarNuevaFraseBtn.Size = new System.Drawing.Size(585, 125);
             this.ingresarNuevaFraseBtn.TabIndex = 7;
             this.ingresarNuevaFraseBtn.Text = "Ingresar Nueva Frase";
-            this.ingresarNuevaFraseBtn.UseVisualStyleBackColor = true;
+            this.ingresarNuevaFraseBtn.UseVisualStyleBackColor = false;
             this.ingresarNuevaFraseBtn.Click += new System.EventHandler(this.ingresarNuevaFraseBtn_Click);
             // 
             // reporteDeAlarmasBtn
             // 
+            this.reporteDeAlarmasBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.reporteDeAlarmasBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reporteDeAlarmasBtn.Location = new System.Drawing.Point(667, 563);
             this.reporteDeAlarmasBtn.Name = "reporteDeAlarmasBtn";
             this.reporteDeAlarmasBtn.Size = new System.Drawing.Size(585, 125);
             this.reporteDeAlarmasBtn.TabIndex = 8;
             this.reporteDeAlarmasBtn.Text = "Reporte de alarmas";
-            this.reporteDeAlarmasBtn.UseVisualStyleBackColor = true;
+            this.reporteDeAlarmasBtn.UseVisualStyleBackColor = false;
             this.reporteDeAlarmasBtn.Click += new System.EventHandler(this.reporteDeAlarmasBtn_Click);
             // 
             // reporteDeEstadisticasBtn
             // 
+            this.reporteDeEstadisticasBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.reporteDeEstadisticasBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reporteDeEstadisticasBtn.Location = new System.Drawing.Point(27, 724);
             this.reporteDeEstadisticasBtn.Name = "reporteDeEstadisticasBtn";
             this.reporteDeEstadisticasBtn.Size = new System.Drawing.Size(1225, 125);
             this.reporteDeEstadisticasBtn.TabIndex = 9;
             this.reporteDeEstadisticasBtn.Text = "Reporte de estadisticas";
-            this.reporteDeEstadisticasBtn.UseVisualStyleBackColor = true;
+            this.reporteDeEstadisticasBtn.UseVisualStyleBackColor = false;
             this.reporteDeEstadisticasBtn.Click += new System.EventHandler(this.reporteDeEstadisticasBtn_Click);
             // 
             // PantallaDeInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1282, 885);
             this.Controls.Add(this.reporteDeEstadisticasBtn);
             this.Controls.Add(this.reporteDeAlarmasBtn);
