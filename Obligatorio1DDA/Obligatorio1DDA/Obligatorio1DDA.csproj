@@ -54,6 +54,12 @@
     <Compile Include="Dominio\PalabraPositiva.cs" />
     <Compile Include="Dominio\Sistema.cs" />
     <Compile Include="Dominio\Tripleta.cs" />
+    <Compile Include="PanelPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelPrincipal.Designer.cs">
+      <DependentUpon>PanelPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaCrearAlarmas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PanelPrincipal.resx">
+      <DependentUpon>PanelPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaCrearAlarmas.resx">
       <DependentUpon>PantallaCrearAlarmas.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +174,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fotos\volverBtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\minimizarImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\cerrarImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\logoImg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
