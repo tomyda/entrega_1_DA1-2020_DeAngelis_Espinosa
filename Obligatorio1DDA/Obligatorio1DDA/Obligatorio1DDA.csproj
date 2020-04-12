@@ -54,6 +54,12 @@
     <Compile Include="Dominio\PalabraPositiva.cs" />
     <Compile Include="Dominio\Sistema.cs" />
     <Compile Include="Dominio\Tripleta.cs" />
+    <Compile Include="PantallaPorDefecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaPorDefecto.Designer.cs">
+      <DependentUpon>PantallaPorDefecto.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,12 +90,6 @@
     <Compile Include="PantallaRegistrarSentNeg.Designer.cs">
       <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaDeInicio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PantallaDeInicio.Designer.cs">
-      <DependentUpon>PantallaDeInicio.cs</DependentUpon>
-    </Compile>
     <Compile Include="PantallaRegistrarSentPos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PantallaPorDefecto.resx">
+      <DependentUpon>PantallaPorDefecto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PanelPrincipal.resx">
       <DependentUpon>PanelPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,9 +127,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistrarSentNeg.resx">
       <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PantallaDeInicio.resx">
-      <DependentUpon>PantallaDeInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistrarSentPos.resx">
       <DependentUpon>PantallaRegistrarSentPos.cs</DependentUpon>
@@ -186,6 +186,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fotos\logoImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\pajaros2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fotos\pajaros1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

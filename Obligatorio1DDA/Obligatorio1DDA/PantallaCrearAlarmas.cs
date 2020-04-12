@@ -22,21 +22,6 @@ namespace Obligatorio1DDA
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PantallaDeInicio pantallaInicio = new PantallaDeInicio();
-            pantallaInicio.ShowDialog();
-            this.Close();
-        }
-
-        private void volverBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PantallaDeInicio pantallaInicio = new PantallaDeInicio();
-            pantallaInicio.ShowDialog();
-            this.Close();
-        }
 
         private void PantallaCrearAlarmas_Load(object sender, EventArgs e)
         {

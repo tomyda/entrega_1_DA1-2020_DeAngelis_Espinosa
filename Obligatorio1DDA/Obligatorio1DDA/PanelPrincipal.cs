@@ -14,38 +14,32 @@ namespace Obligatorio1DDA
     public partial class PanelPrincipal : Form
     {
         public PanelPrincipal()
-        {
+        { 
             InitializeComponent();
+            AbrirFormHijo(new PantallaPorDefecto());
         }
 
         private void botonMinimizar_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void botonCerrar_Click(object sender, EventArgs e)
         {
+            PanelSubmenu.Visible = false;
             Application.Exit();
         }
 
         private void botonReporteAlarmas_Click(object sender, EventArgs e)
         {
-
+            PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaReporteDeAlarmas()); 
         }
 
         private void botonPalabraPositiva_Click(object sender, EventArgs e)
         {
             PanelSubmenu.Visible = false;
-        }
-
-        private void MenuVertical_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelSubmenu_Paint(object sender, PaintEventArgs e)
-        {
-            
+            AbrirFormHijo(new PantallaRegistrarSentPos());
         }
 
         private void BotonAnadir_Click(object sender, EventArgs e)
@@ -56,26 +50,25 @@ namespace Obligatorio1DDA
         private void BotonEntidad_Click(object sender, EventArgs e)
         {
             PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaRegistrarEntidades());
         }
 
         private void BotonPalabraNegativa_Click(object sender, EventArgs e)
         {
             PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaRegistrarSentNeg());
         }
 
         private void BotonAlarma_Click(object sender, EventArgs e)
         {
             PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaCrearAlarmas());
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void BotonIngresarFrase_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void BarraDeTitulo_Paint(object sender, PaintEventArgs e)
-        {
-
+            PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaIngresarNuevaFrase());
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -87,6 +80,31 @@ namespace Obligatorio1DDA
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void BotonReporteEstadisticas_Click(object sender, EventArgs e)
+        {
+            PanelSubmenu.Visible = false;
+            AbrirFormHijo(new PantallaReporteEstadisticas());
+        }
+
+        private void AbrirFormHijo(object formHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+            }
+            Form fh = formHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

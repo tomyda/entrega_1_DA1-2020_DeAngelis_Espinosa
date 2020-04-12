@@ -17,12 +17,5 @@ namespace Obligatorio1DDA
             InitializeComponent();
         }
 
-        private void volverBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PantallaDeInicio pantallaInicio = new PantallaDeInicio();
-            pantallaInicio.ShowDialog();
-            this.Close();
-        }
     }
 }
