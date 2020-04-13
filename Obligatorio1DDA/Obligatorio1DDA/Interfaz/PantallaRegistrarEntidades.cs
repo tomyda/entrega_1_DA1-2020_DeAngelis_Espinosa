@@ -34,7 +34,17 @@ namespace Obligatorio1DDA
 
         private void botonContinuar_Click(object sender, EventArgs e)
         {
+            if (this.TextBoxEntidadIngresada.Text == "")
+            {
+                System.Windows.Forms.MessageBox.Show("Debe ingresar el nombre de la entidad para poder ingresarla al sistema");
+                return;
+            }
 
+            var result = MessageBox.Show("¿Seguro que desea agregar: " + this.TextBoxEntidadIngresada.Text + " ,como entidad?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+
+            }
         }
     }
 }

@@ -78,8 +78,9 @@
             this.BarraDeTitulo.Controls.Add(this.BotonMinimizar);
             this.BarraDeTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraDeTitulo.Location = new System.Drawing.Point(0, 0);
+            this.BarraDeTitulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BarraDeTitulo.Name = "BarraDeTitulo";
-            this.BarraDeTitulo.Size = new System.Drawing.Size(1300, 55);
+            this.BarraDeTitulo.Size = new System.Drawing.Size(867, 36);
             this.BarraDeTitulo.TabIndex = 0;
             this.BarraDeTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraDeTitulo_MouseDown);
             // 
@@ -87,9 +88,10 @@
             // 
             this.LabelTitulo.AutoSize = true;
             this.LabelTitulo.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelTitulo.Location = new System.Drawing.Point(506, 9);
+            this.LabelTitulo.Location = new System.Drawing.Point(337, 6);
+            this.LabelTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelTitulo.Name = "LabelTitulo";
-            this.LabelTitulo.Size = new System.Drawing.Size(310, 32);
+            this.LabelTitulo.Size = new System.Drawing.Size(215, 22);
             this.LabelTitulo.TabIndex = 2;
             this.LabelTitulo.Text = "ANALIZADOR DE FRASES";
             // 
@@ -98,9 +100,10 @@
             this.BotonCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BotonCerrar.Image = global::Obligatorio1DDA.Properties.Resources.cerrarImg;
-            this.BotonCerrar.Location = new System.Drawing.Point(1250, 7);
+            this.BotonCerrar.Location = new System.Drawing.Point(833, 5);
+            this.BotonCerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonCerrar.Name = "BotonCerrar";
-            this.BotonCerrar.Size = new System.Drawing.Size(47, 40);
+            this.BotonCerrar.Size = new System.Drawing.Size(31, 26);
             this.BotonCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.BotonCerrar.TabIndex = 0;
             this.BotonCerrar.TabStop = false;
@@ -111,9 +114,10 @@
             this.BotonMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BotonMinimizar.Image = global::Obligatorio1DDA.Properties.Resources.minimizarImg;
-            this.BotonMinimizar.Location = new System.Drawing.Point(1204, 6);
+            this.BotonMinimizar.Location = new System.Drawing.Point(803, 4);
+            this.BotonMinimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonMinimizar.Name = "BotonMinimizar";
-            this.BotonMinimizar.Size = new System.Drawing.Size(40, 41);
+            this.BotonMinimizar.Size = new System.Drawing.Size(27, 27);
             this.BotonMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.BotonMinimizar.TabIndex = 1;
             this.BotonMinimizar.TabStop = false;
@@ -123,9 +127,10 @@
             // 
             this.PanelContenedor.BackColor = System.Drawing.Color.SkyBlue;
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(355, 55);
+            this.PanelContenedor.Location = new System.Drawing.Point(237, 36);
+            this.PanelContenedor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(945, 895);
+            this.PanelContenedor.Size = new System.Drawing.Size(630, 581);
             this.PanelContenedor.TabIndex = 2;
             // 
             // MenuVertical
@@ -148,34 +153,39 @@
             this.MenuVertical.Controls.Add(this.BotonReporteEstadisticas);
             this.MenuVertical.Controls.Add(this.BotonIngresarFrase);
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVertical.Location = new System.Drawing.Point(0, 55);
+            this.MenuVertical.Location = new System.Drawing.Point(0, 36);
+            this.MenuVertical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(355, 895);
+            this.MenuVertical.Size = new System.Drawing.Size(237, 581);
             this.MenuVertical.TabIndex = 1;
             // 
             // panel18
             // 
-            this.panel18.Location = new System.Drawing.Point(334, 21);
+            this.panel18.Location = new System.Drawing.Point(223, 14);
+            this.panel18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(10, 170);
+            this.panel18.Size = new System.Drawing.Size(7, 110);
             this.panel18.TabIndex = 4;
             // 
             // panel17
             // 
-            this.panel17.Location = new System.Drawing.Point(12, 22);
+            this.panel17.Location = new System.Drawing.Point(8, 14);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(10, 170);
+            this.panel17.Size = new System.Drawing.Size(7, 110);
             this.panel17.TabIndex = 3;
             // 
             // FotoLogo
             // 
             this.FotoLogo.Image = global::Obligatorio1DDA.Properties.Resources.logoImg;
-            this.FotoLogo.Location = new System.Drawing.Point(12, 22);
+            this.FotoLogo.Location = new System.Drawing.Point(8, 14);
+            this.FotoLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FotoLogo.Name = "FotoLogo";
-            this.FotoLogo.Size = new System.Drawing.Size(332, 169);
+            this.FotoLogo.Size = new System.Drawing.Size(221, 110);
             this.FotoLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FotoLogo.TabIndex = 23;
             this.FotoLogo.TabStop = false;
+            this.FotoLogo.Click += new System.EventHandler(this.FotoLogo_Click);
             // 
             // PanelSubmenu
             // 
@@ -192,18 +202,20 @@
             this.PanelSubmenu.Controls.Add(this.panel12);
             this.PanelSubmenu.Controls.Add(this.panel11);
             this.PanelSubmenu.Controls.Add(this.BotonAlarma);
-            this.PanelSubmenu.Location = new System.Drawing.Point(36, 488);
+            this.PanelSubmenu.Location = new System.Drawing.Point(24, 317);
+            this.PanelSubmenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PanelSubmenu.Name = "PanelSubmenu";
-            this.PanelSubmenu.Size = new System.Drawing.Size(281, 222);
+            this.PanelSubmenu.Size = new System.Drawing.Size(187, 144);
             this.PanelSubmenu.TabIndex = 22;
             this.PanelSubmenu.Visible = false;
             // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.White;
-            this.panel14.Location = new System.Drawing.Point(264, 106);
+            this.panel14.Location = new System.Drawing.Point(176, 69);
+            this.panel14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(10, 43);
+            this.panel14.Size = new System.Drawing.Size(7, 28);
             this.panel14.TabIndex = 22;
             // 
             // BotonPalabraPositiva
@@ -215,9 +227,10 @@
             this.BotonPalabraPositiva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonPalabraPositiva.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonPalabraPositiva.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonPalabraPositiva.Location = new System.Drawing.Point(27, 57);
+            this.BotonPalabraPositiva.Location = new System.Drawing.Point(18, 37);
+            this.BotonPalabraPositiva.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonPalabraPositiva.Name = "BotonPalabraPositiva";
-            this.BotonPalabraPositiva.Size = new System.Drawing.Size(231, 43);
+            this.BotonPalabraPositiva.Size = new System.Drawing.Size(154, 28);
             this.BotonPalabraPositiva.TabIndex = 12;
             this.BotonPalabraPositiva.Text = "PALABRA POSITIVA";
             this.BotonPalabraPositiva.UseVisualStyleBackColor = false;
@@ -226,9 +239,10 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.White;
-            this.panel13.Location = new System.Drawing.Point(264, 155);
+            this.panel13.Location = new System.Drawing.Point(176, 101);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(10, 43);
+            this.panel13.Size = new System.Drawing.Size(7, 28);
             this.panel13.TabIndex = 21;
             // 
             // BotonEntidad
@@ -240,9 +254,10 @@
             this.BotonEntidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonEntidad.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonEntidad.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonEntidad.Location = new System.Drawing.Point(27, 8);
+            this.BotonEntidad.Location = new System.Drawing.Point(18, 5);
+            this.BotonEntidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonEntidad.Name = "BotonEntidad";
-            this.BotonEntidad.Size = new System.Drawing.Size(231, 43);
+            this.BotonEntidad.Size = new System.Drawing.Size(154, 28);
             this.BotonEntidad.TabIndex = 10;
             this.BotonEntidad.Text = "ENTIDAD";
             this.BotonEntidad.UseVisualStyleBackColor = false;
@@ -252,36 +267,40 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
             this.panel9.ForeColor = System.Drawing.Color.White;
-            this.panel9.Location = new System.Drawing.Point(11, 8);
+            this.panel9.Location = new System.Drawing.Point(7, 5);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(10, 43);
+            this.panel9.Size = new System.Drawing.Size(7, 28);
             this.panel9.TabIndex = 11;
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.White;
             this.panel15.ForeColor = System.Drawing.Color.White;
-            this.panel15.Location = new System.Drawing.Point(264, 57);
+            this.panel15.Location = new System.Drawing.Point(176, 37);
+            this.panel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(10, 43);
+            this.panel15.Size = new System.Drawing.Size(7, 28);
             this.panel15.TabIndex = 19;
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
             this.panel10.ForeColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(11, 57);
+            this.panel10.Location = new System.Drawing.Point(7, 37);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(10, 43);
+            this.panel10.Size = new System.Drawing.Size(7, 28);
             this.panel10.TabIndex = 13;
             // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
             this.panel16.ForeColor = System.Drawing.Color.White;
-            this.panel16.Location = new System.Drawing.Point(264, 8);
+            this.panel16.Location = new System.Drawing.Point(176, 5);
+            this.panel16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(10, 43);
+            this.panel16.Size = new System.Drawing.Size(7, 28);
             this.panel16.TabIndex = 18;
             // 
             // BotonPalabraNegativa
@@ -293,9 +312,10 @@
             this.BotonPalabraNegativa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonPalabraNegativa.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonPalabraNegativa.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonPalabraNegativa.Location = new System.Drawing.Point(27, 106);
+            this.BotonPalabraNegativa.Location = new System.Drawing.Point(18, 69);
+            this.BotonPalabraNegativa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonPalabraNegativa.Name = "BotonPalabraNegativa";
-            this.BotonPalabraNegativa.Size = new System.Drawing.Size(231, 43);
+            this.BotonPalabraNegativa.Size = new System.Drawing.Size(154, 28);
             this.BotonPalabraNegativa.TabIndex = 14;
             this.BotonPalabraNegativa.Text = "PALABRA NEGATIVA";
             this.BotonPalabraNegativa.UseVisualStyleBackColor = false;
@@ -304,18 +324,20 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.White;
-            this.panel12.Location = new System.Drawing.Point(11, 155);
+            this.panel12.Location = new System.Drawing.Point(7, 101);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(10, 43);
+            this.panel12.Size = new System.Drawing.Size(7, 28);
             this.panel12.TabIndex = 17;
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.White;
             this.panel11.ForeColor = System.Drawing.Color.White;
-            this.panel11.Location = new System.Drawing.Point(11, 106);
+            this.panel11.Location = new System.Drawing.Point(7, 69);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(10, 43);
+            this.panel11.Size = new System.Drawing.Size(7, 28);
             this.panel11.TabIndex = 15;
             // 
             // BotonAlarma
@@ -327,9 +349,10 @@
             this.BotonAlarma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAlarma.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAlarma.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonAlarma.Location = new System.Drawing.Point(27, 155);
+            this.BotonAlarma.Location = new System.Drawing.Point(18, 101);
+            this.BotonAlarma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonAlarma.Name = "BotonAlarma";
-            this.BotonAlarma.Size = new System.Drawing.Size(231, 43);
+            this.BotonAlarma.Size = new System.Drawing.Size(154, 28);
             this.BotonAlarma.TabIndex = 16;
             this.BotonAlarma.Text = "ALARMA";
             this.BotonAlarma.UseVisualStyleBackColor = false;
@@ -337,16 +360,18 @@
             // 
             // panel7
             // 
-            this.panel7.Location = new System.Drawing.Point(334, 439);
+            this.panel7.Location = new System.Drawing.Point(223, 285);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(10, 43);
+            this.panel7.Size = new System.Drawing.Size(7, 28);
             this.panel7.TabIndex = 9;
             // 
             // panel8
             // 
-            this.panel8.Location = new System.Drawing.Point(12, 439);
+            this.panel8.Location = new System.Drawing.Point(8, 285);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(10, 43);
+            this.panel8.Size = new System.Drawing.Size(7, 28);
             this.panel8.TabIndex = 8;
             // 
             // BotonAnadir
@@ -358,9 +383,10 @@
             this.BotonAnadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAnadir.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAnadir.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonAnadir.Location = new System.Drawing.Point(12, 439);
+            this.BotonAnadir.Location = new System.Drawing.Point(8, 285);
+            this.BotonAnadir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonAnadir.Name = "BotonAnadir";
-            this.BotonAnadir.Size = new System.Drawing.Size(332, 43);
+            this.BotonAnadir.Size = new System.Drawing.Size(221, 28);
             this.BotonAnadir.TabIndex = 7;
             this.BotonAnadir.Text = "AÑADIR";
             this.BotonAnadir.UseVisualStyleBackColor = false;
@@ -368,44 +394,50 @@
             // 
             // panel5
             // 
-            this.panel5.Location = new System.Drawing.Point(334, 287);
+            this.panel5.Location = new System.Drawing.Point(223, 187);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 43);
+            this.panel5.Size = new System.Drawing.Size(7, 28);
             this.panel5.TabIndex = 6;
             // 
             // panel6
             // 
-            this.panel6.Location = new System.Drawing.Point(12, 287);
+            this.panel6.Location = new System.Drawing.Point(8, 187);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(10, 43);
+            this.panel6.Size = new System.Drawing.Size(7, 28);
             this.panel6.TabIndex = 5;
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(334, 366);
+            this.panel4.Location = new System.Drawing.Point(223, 238);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 43);
+            this.panel4.Size = new System.Drawing.Size(7, 28);
             this.panel4.TabIndex = 3;
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(334, 212);
+            this.panel3.Location = new System.Drawing.Point(223, 138);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 43);
+            this.panel3.Size = new System.Drawing.Size(7, 28);
             this.panel3.TabIndex = 3;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(12, 366);
+            this.panel2.Location = new System.Drawing.Point(8, 238);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 43);
+            this.panel2.Size = new System.Drawing.Size(7, 28);
             this.panel2.TabIndex = 3;
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(12, 212);
+            this.panel1.Location = new System.Drawing.Point(8, 138);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 43);
+            this.panel1.Size = new System.Drawing.Size(7, 28);
             this.panel1.TabIndex = 2;
             // 
             // BotonReporteAlarmas
@@ -417,9 +449,10 @@
             this.BotonReporteAlarmas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonReporteAlarmas.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonReporteAlarmas.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonReporteAlarmas.Location = new System.Drawing.Point(12, 287);
+            this.BotonReporteAlarmas.Location = new System.Drawing.Point(8, 187);
+            this.BotonReporteAlarmas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonReporteAlarmas.Name = "BotonReporteAlarmas";
-            this.BotonReporteAlarmas.Size = new System.Drawing.Size(332, 43);
+            this.BotonReporteAlarmas.Size = new System.Drawing.Size(221, 28);
             this.BotonReporteAlarmas.TabIndex = 1;
             this.BotonReporteAlarmas.Text = "REPORTE DE ALARMAS";
             this.BotonReporteAlarmas.UseVisualStyleBackColor = false;
@@ -434,9 +467,10 @@
             this.BotonReporteEstadisticas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonReporteEstadisticas.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonReporteEstadisticas.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonReporteEstadisticas.Location = new System.Drawing.Point(12, 212);
+            this.BotonReporteEstadisticas.Location = new System.Drawing.Point(8, 138);
+            this.BotonReporteEstadisticas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonReporteEstadisticas.Name = "BotonReporteEstadisticas";
-            this.BotonReporteEstadisticas.Size = new System.Drawing.Size(332, 43);
+            this.BotonReporteEstadisticas.Size = new System.Drawing.Size(221, 28);
             this.BotonReporteEstadisticas.TabIndex = 0;
             this.BotonReporteEstadisticas.Text = "REPORTE DE ESTADISTICAS";
             this.BotonReporteEstadisticas.UseVisualStyleBackColor = false;
@@ -451,9 +485,10 @@
             this.BotonIngresarFrase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonIngresarFrase.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonIngresarFrase.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonIngresarFrase.Location = new System.Drawing.Point(12, 366);
+            this.BotonIngresarFrase.Location = new System.Drawing.Point(8, 238);
+            this.BotonIngresarFrase.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BotonIngresarFrase.Name = "BotonIngresarFrase";
-            this.BotonIngresarFrase.Size = new System.Drawing.Size(332, 43);
+            this.BotonIngresarFrase.Size = new System.Drawing.Size(221, 28);
             this.BotonIngresarFrase.TabIndex = 4;
             this.BotonIngresarFrase.Text = "INGRESAR NUEVA FRASE";
             this.BotonIngresarFrase.UseVisualStyleBackColor = false;
@@ -461,13 +496,14 @@
             // 
             // PanelPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 950);
+            this.ClientSize = new System.Drawing.Size(867, 617);
             this.Controls.Add(this.PanelContenedor);
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraDeTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PanelPrincipal";
             this.Text = "Form1";
             this.BarraDeTitulo.ResumeLayout(false);

@@ -26,5 +26,14 @@ namespace Obligatorio1DDA
         {
 
         }
+
+        private void BotonContinuar_Click(object sender, EventArgs e)
+        {
+            if (this.TextBoxIngresarFrase.Text.Trim() == "")
+            {
+                System.Windows.Forms.MessageBox.Show("Debe ingresar la frase compuesta por al menos un caracter");
+                return;
+            }
+        }
     }
 }

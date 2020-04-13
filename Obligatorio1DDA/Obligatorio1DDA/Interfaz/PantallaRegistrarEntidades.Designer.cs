@@ -28,72 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.titulo = new System.Windows.Forms.Label();
-            this.botonContinuar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Titulo = new System.Windows.Forms.Label();
+            this.BotonContinuar = new System.Windows.Forms.Button();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.TextBoxEntidadIngresada = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // titulo
+            // Titulo
             // 
-            this.titulo.BackColor = System.Drawing.Color.Transparent;
-            this.titulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.titulo.Font = new System.Drawing.Font("Franklin Gothic Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titulo.Location = new System.Drawing.Point(0, 0);
-            this.titulo.Name = "titulo";
-            this.titulo.Size = new System.Drawing.Size(945, 139);
-            this.titulo.TabIndex = 7;
-            this.titulo.Text = "AÑADIR NUEVA ENTIDAD";
-            this.titulo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Titulo.BackColor = System.Drawing.Color.Transparent;
+            this.Titulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Titulo.Font = new System.Drawing.Font("Franklin Gothic Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo.Location = new System.Drawing.Point(0, 0);
+            this.Titulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Titulo.Name = "Titulo";
+            this.Titulo.Size = new System.Drawing.Size(630, 90);
+            this.Titulo.TabIndex = 7;
+            this.Titulo.Text = "AÑADIR NUEVA ENTIDAD";
+            this.Titulo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // botonContinuar
+            // BotonContinuar
             // 
-            this.botonContinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(147)))));
-            this.botonContinuar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonContinuar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.botonContinuar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonContinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonContinuar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.botonContinuar.Location = new System.Drawing.Point(290, 499);
-            this.botonContinuar.Name = "botonContinuar";
-            this.botonContinuar.Size = new System.Drawing.Size(349, 49);
-            this.botonContinuar.TabIndex = 14;
-            this.botonContinuar.Text = "AÑADIR ENTIDAD";
-            this.botonContinuar.UseVisualStyleBackColor = false;
-            this.botonContinuar.Click += new System.EventHandler(this.botonContinuar_Click);
+            this.BotonContinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(147)))));
+            this.BotonContinuar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BotonContinuar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BotonContinuar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonContinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonContinuar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BotonContinuar.Location = new System.Drawing.Point(197, 320);
+            this.BotonContinuar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonContinuar.Name = "BotonContinuar";
+            this.BotonContinuar.Size = new System.Drawing.Size(233, 32);
+            this.BotonContinuar.TabIndex = 14;
+            this.BotonContinuar.Text = "AÑADIR ENTIDAD";
+            this.BotonContinuar.UseVisualStyleBackColor = false;
+            this.BotonContinuar.Click += new System.EventHandler(this.botonContinuar_Click);
             // 
-            // label1
+            // Label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(191, 374);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(544, 32);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Ingrese el nombre de la nueva entidad:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(131, 239);
+            this.Label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(377, 24);
+            this.Label1.TabIndex = 12;
+            this.Label1.Text = "Ingrese el nombre de la nueva entidad:";
+            this.Label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // TextBoxEntidadIngresada
             // 
-            this.textBox1.Font = new System.Drawing.Font("MV Boli", 14F);
-            this.textBox1.Location = new System.Drawing.Point(197, 424);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(538, 53);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.TextBoxEntidadIngresada.Font = new System.Drawing.Font("MV Boli", 14F);
+            this.TextBoxEntidadIngresada.Location = new System.Drawing.Point(135, 272);
+            this.TextBoxEntidadIngresada.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextBoxEntidadIngresada.Name = "TextBoxEntidadIngresada";
+            this.TextBoxEntidadIngresada.Size = new System.Drawing.Size(360, 38);
+            this.TextBoxEntidadIngresada.TabIndex = 15;
+            this.TextBoxEntidadIngresada.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxEntidadIngresada.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // PantallaRegistrarEntidades
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(945, 895);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.botonContinuar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.titulo);
+            this.ClientSize = new System.Drawing.Size(630, 582);
+            this.Controls.Add(this.TextBoxEntidadIngresada);
+            this.Controls.Add(this.BotonContinuar);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.Titulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PantallaRegistrarEntidades";
             this.Load += new System.EventHandler(this.PantallaRegistrarEntidades_Load);
             this.ResumeLayout(false);
@@ -103,9 +108,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label titulo;
-        private System.Windows.Forms.Button botonContinuar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label Titulo;
+        private System.Windows.Forms.Button BotonContinuar;
+        private System.Windows.Forms.Label Label1;
+        private System.Windows.Forms.TextBox TextBoxEntidadIngresada;
     }
 }

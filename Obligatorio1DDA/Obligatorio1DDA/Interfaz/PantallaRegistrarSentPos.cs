@@ -17,6 +17,19 @@ namespace Obligatorio1DDA
             InitializeComponent();
         }
 
+        private void botonContinuar_Click(object sender, EventArgs e)
+        {
+            if(this.TextBoxPalabraIngresada.Text == "")
+            {
+                System.Windows.Forms.MessageBox.Show("Debe ingresar su frase u oración positiva para poder ingresarla al sistema");
+                return;
+            }
 
+            var result = MessageBox.Show("¿Seguro que desea agregar: " + this.TextBoxPalabraIngresada.Text + " ,como sentimiento positivo?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                
+            }
+        }
     }
 }

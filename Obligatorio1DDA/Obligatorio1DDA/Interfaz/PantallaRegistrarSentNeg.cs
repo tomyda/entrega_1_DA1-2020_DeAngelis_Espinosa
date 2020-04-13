@@ -26,5 +26,25 @@ namespace Obligatorio1DDA
         {
 
         }
+
+        private void textBoxPalabraIngresada_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonContinuar_Click(object sender, EventArgs e)
+        {
+            if (this.TextBoxPalabraIngresada.Text == "")
+            {
+                System.Windows.Forms.MessageBox.Show("Debe ingresar su frase u oración negativa para poder ingresarla al sistema");
+                return;
+            }
+
+            var result = MessageBox.Show("¿Seguro que desea agregar: " + this.TextBoxPalabraIngresada.Text + " ,como sentimiento negativo?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+
+            }
+        }
     }
 }

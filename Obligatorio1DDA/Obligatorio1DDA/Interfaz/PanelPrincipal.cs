@@ -27,7 +27,13 @@ namespace Obligatorio1DDA
         private void botonCerrar_Click(object sender, EventArgs e)
         {
             PanelSubmenu.Visible = false;
-            Application.Exit();
+            var result = MessageBox.Show("¿Seguro que desea cerrar el programa?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+                Application.Exit();
+            }
         }
 
         private void botonReporteAlarmas_Click(object sender, EventArgs e)
@@ -105,6 +111,11 @@ namespace Obligatorio1DDA
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FotoLogo_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new PantallaPorDefecto());
         }
     }
 }
