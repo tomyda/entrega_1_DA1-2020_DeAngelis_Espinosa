@@ -36,3 +36,21 @@ C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligat
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csprojAssemblyReference.cache
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PanelPrincipal.resources
 C:\Users\Tommy\OneDrive\Escritorio\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaPorDefecto.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe.config
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.exe
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\bin\Debug\Obligatorio1DDA.pdb
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csprojAssemblyReference.cache
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaPorDefecto.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PanelPrincipal.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaCrearAlarmas.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaIngresarNuevaFrase.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaRegistrarEntidades.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaRegistrarSentNeg.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaRegistrarSentPos.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaReporteDeAlarmas.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.PantallaReporteEstadisticas.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.Properties.Resources.resources
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csproj.GenerateResource.cache
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.csproj.CoreCompileInputs.cache
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.exe
+C:\Users\Tomas De Angelis\Desktop\entrega_1_DA1-2020_DeAngelis_Espinosa\Obligatorio1DDA\Obligatorio1DDA\obj\Debug\Obligatorio1DDA.pdb

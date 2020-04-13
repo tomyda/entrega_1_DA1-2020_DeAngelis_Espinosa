@@ -54,87 +54,87 @@
     <Compile Include="Dominio\PalabraPositiva.cs" />
     <Compile Include="Dominio\Sistema.cs" />
     <Compile Include="Dominio\Tripleta.cs" />
-    <Compile Include="PantallaPorDefecto.cs">
+    <Compile Include="Interfaz\PantallaPorDefecto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaPorDefecto.Designer.cs">
+    <Compile Include="Interfaz\PantallaPorDefecto.Designer.cs">
       <DependentUpon>PantallaPorDefecto.cs</DependentUpon>
     </Compile>
-    <Compile Include="PanelPrincipal.cs">
+    <Compile Include="Interfaz\PanelPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PanelPrincipal.Designer.cs">
+    <Compile Include="Interfaz\PanelPrincipal.Designer.cs">
       <DependentUpon>PanelPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaCrearAlarmas.cs">
+    <Compile Include="Interfaz\PantallaCrearAlarmas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaCrearAlarmas.Designer.cs">
+    <Compile Include="Interfaz\PantallaCrearAlarmas.Designer.cs">
       <DependentUpon>PantallaCrearAlarmas.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaIngresarNuevaFrase.cs">
+    <Compile Include="Interfaz\PantallaIngresarNuevaFrase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaIngresarNuevaFrase.Designer.cs">
+    <Compile Include="Interfaz\PantallaIngresarNuevaFrase.Designer.cs">
       <DependentUpon>PantallaIngresarNuevaFrase.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaRegistrarEntidades.cs">
+    <Compile Include="Interfaz\PantallaRegistrarEntidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaRegistrarEntidades.Designer.cs">
+    <Compile Include="Interfaz\PantallaRegistrarEntidades.Designer.cs">
       <DependentUpon>PantallaRegistrarEntidades.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaRegistrarSentNeg.cs">
+    <Compile Include="Interfaz\PantallaRegistrarSentNeg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaRegistrarSentNeg.Designer.cs">
+    <Compile Include="Interfaz\PantallaRegistrarSentNeg.Designer.cs">
       <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaRegistrarSentPos.cs">
+    <Compile Include="Interfaz\PantallaRegistrarSentPos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaRegistrarSentPos.Designer.cs">
+    <Compile Include="Interfaz\PantallaRegistrarSentPos.Designer.cs">
       <DependentUpon>PantallaRegistrarSentPos.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaReporteDeAlarmas.cs">
+    <Compile Include="Interfaz\PantallaReporteDeAlarmas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaReporteDeAlarmas.Designer.cs">
+    <Compile Include="Interfaz\PantallaReporteDeAlarmas.Designer.cs">
       <DependentUpon>PantallaReporteDeAlarmas.cs</DependentUpon>
     </Compile>
-    <Compile Include="PantallaReporteEstadisticas.cs">
+    <Compile Include="Interfaz\PantallaReporteEstadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PantallaReporteEstadisticas.Designer.cs">
+    <Compile Include="Interfaz\PantallaReporteEstadisticas.Designer.cs">
       <DependentUpon>PantallaReporteEstadisticas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PantallaPorDefecto.resx">
+    <EmbeddedResource Include="Interfaz\PantallaPorDefecto.resx">
       <DependentUpon>PantallaPorDefecto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PanelPrincipal.resx">
+    <EmbeddedResource Include="Interfaz\PanelPrincipal.resx">
       <DependentUpon>PanelPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaCrearAlarmas.resx">
+    <EmbeddedResource Include="Interfaz\PantallaCrearAlarmas.resx">
       <DependentUpon>PantallaCrearAlarmas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaIngresarNuevaFrase.resx">
+    <EmbeddedResource Include="Interfaz\PantallaIngresarNuevaFrase.resx">
       <DependentUpon>PantallaIngresarNuevaFrase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaRegistrarEntidades.resx">
+    <EmbeddedResource Include="Interfaz\PantallaRegistrarEntidades.resx">
       <DependentUpon>PantallaRegistrarEntidades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaRegistrarSentNeg.resx">
+    <EmbeddedResource Include="Interfaz\PantallaRegistrarSentNeg.resx">
       <DependentUpon>PantallaRegistrarSentNeg.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaRegistrarSentPos.resx">
+    <EmbeddedResource Include="Interfaz\PantallaRegistrarSentPos.resx">
       <DependentUpon>PantallaRegistrarSentPos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaReporteDeAlarmas.resx">
+    <EmbeddedResource Include="Interfaz\PantallaReporteDeAlarmas.resx">
       <DependentUpon>PantallaReporteDeAlarmas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PantallaReporteEstadisticas.resx">
+    <EmbeddedResource Include="Interfaz\PantallaReporteEstadisticas.resx">
       <DependentUpon>PantallaReporteEstadisticas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
